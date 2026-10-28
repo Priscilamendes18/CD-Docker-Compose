@@ -1,9 +1,9 @@
 services:
   app:
     build: .
-    image: profrafaelmiranda/mural-flask:latest
+    image: priscilamendes/mural-flask:latest
     ports:
-      - "8081:5000"
+      - "8061:5000"
     environment:
       DB_HOST: db
       DB_PORT: "3306"
