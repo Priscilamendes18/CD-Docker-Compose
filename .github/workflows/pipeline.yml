@@ -49,9 +49,9 @@ jobs:
       - name: Login no Docker Hub
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
-
+          username: priscilamendes18
+          password: dckr_pat_jMkPjFB-fOhImxvdjTytc3t1cs4
+          
       - name: Baixar imagem publicada
         run: docker compose pull app
 
