@@ -1,7 +1,7 @@
 services:
   app:
     build: .
-    image: priscilamendes/mural-flask:latest
+    image: priscilamendes18/mural-flask:latest
     ports:
       - "8061:5000"
     environment:
